@@ -5,12 +5,12 @@ class Config(object):
     # Pyrogram Client
     API_ID    = int(os.environ.get("API_ID", "24612258"))  # ⚠️ Required
     API_HASH  = os.environ.get("API_HASH", "45967b0f465ef73d4be767e7bdae13ad") # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7460389659:AAGkYFtPIsIgYHp94ZQdVb42aGAVARvWVVU") # ⚠️ Required
-    
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7460389659:AAEFongsRcZjwnWEUyebZGE927R5ERJITbM") # ⚠️ Required
+
     # Other Configs
     BOT_START_TIME = time.time()
-    OWNER    = int(os.environ.get("OWNER", "7507408570"))  # ⚠️ Required
-    SUDO = list(map(int, os.environ.get("SUDO", "7538572906 6636904611").split()))  # ⚠️ Required
+    OWNER    = int(os.environ.get("OWNER", "7953078539"))  # ⚠️ Required
+    SUDO = list(map(int, os.environ.get("SUDO", "7953078539 6914016947").split()))  # ⚠️ Required
     # Web Response Config
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
     PORT = int(os.environ.get("PORT", "8080"))
@@ -86,7 +86,7 @@ Whats your  reason: select 1-9 👇
     SEND_NO_OF_REPORT_MSG = """
 ❪ SELECT NUMBER OF REPORTS 👤 ❫
 
-**Send Number of reports which you want to report to this @{}**
+Send Number of reports which you want to report to this @{}
 
 The bot will keep reporting to target channel or group until it's reach the number of report. 🎯
 """
