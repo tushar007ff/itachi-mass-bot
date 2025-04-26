@@ -3,9 +3,9 @@ import time
 
 class Config(object):
     # Pyrogram Client
-    API_ID    = int(os.environ.get("API_ID", "17763538"))  # ⚠️ Required
-    API_HASH  = os.environ.get("API_HASH", "babad31b4b434fc53d8bd13370c556c3") # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8190350217:AAFPBQoEK96Dkg7ILHM9louqXLt6c8SOJUs") # ⚠️ Required
+    API_ID    = int(os.environ.get("API_ID", "24612258"))  # ⚠️ Required
+    API_HASH  = os.environ.get("API_HASH", "45967b0f465ef73d4be767e7bdae13ad") # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7460389659:AAGkYFtPIsIgYHp94ZQdVb42aGAVARvWVVU") # ⚠️ Required
     
     # Other Configs
     BOT_START_TIME = time.time()
